@@ -6,7 +6,7 @@ import "fmt"
 func Fascinating() {
 	fmt.Println("Drlog")
 
-	fmt.Println("Planet speed", planetSpeed)
+	fmt.Println("Planet speed", PlanetSpeed)
 
 	planetRotationSpeed := 1000
 

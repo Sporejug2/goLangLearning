@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-var x = 42
+//var x = 42
 
 func main() {
 
@@ -29,6 +29,8 @@ func main() {
 	if z := 82; z > 50 {
 		fmt.Println(z)
 	}
+
+	futh
 
 	futherexplorer.Fascinating()
 

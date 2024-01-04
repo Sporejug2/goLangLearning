@@ -2,7 +2,6 @@ package Section6
 
 import (
 	"fmt"
-	"mymodule/Section5"
 )
 
 var x = 42

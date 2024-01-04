@@ -1,10 +1,12 @@
-package Section8
+package main
 
 import (
 	"fmt"
-	"your.org/fancy_module"
+	"mymodule/puppy"
 )
 
+// go mod init mymodule
+// go mod tidy
 func main() {
 	s1 := puppy.Bark()
 	s2 := puppy.Barks()

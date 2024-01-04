@@ -1,7 +1,3 @@
-module fancy_module
+module mymodule
 
 go 1.19
-
-replace your.org/fancy_module => /puppy
-
-require module/path v1.2.3
