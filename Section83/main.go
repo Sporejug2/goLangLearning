@@ -20,10 +20,24 @@ go: downloading github.com/Sporejug2/puppy v0.0.0-20240104130407-b6d4d5e42a2b
 go: added github.com/Sporejug2/Dog v0.0.0-20240104125923-7b8204ba61c5
 go: upgraded github.com/Sporejug2/puppy v0.0.0-20240104122133-c0093b9b9e78 => v0.0.0-20240104130407-b6d4d5e42a2b
 
+$ go get github.com/Sporejug2/puppy
+go: downloading github.com/Sporejug2/puppy v1.4.0
+go: upgraded github.com/Sporejug2/puppy v0.0.0-20240104130407-b6d4d5e42a2b => v1.4.0
+
+
+$ go get github.com/Sporejug2/puppy@v1.3.0
+go: downloading github.com/Sporejug2/puppy v1.3.0
+go: downgraded github.com/Sporejug2/puppy v1.4.0 => v1.3.0
+
+
+$ go get github.com/Sporejug2/puppy@latest
+go: upgraded github.com/Sporejug2/puppy v1.3.0 => v1.4.0
 
 */
 
 func main() {
+	puppy.From11()
+	puppy.From12()
 	s1 := puppy.Bark()
 	s2 := puppy.Barks()
 	fmt.Println(s1, s2)
