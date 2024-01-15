@@ -3,7 +3,7 @@ module mymodule
 go 1.19
 
 require (
-	github.com/Sporejug2/cat v0.0.0-20240108100026-6bf12327aba9
+	github.com/Sporejug2/cat v0.0.0-20240108112709-426d8109b88e
 	github.com/Sporejug2/puppy v1.3.0
 )
 
